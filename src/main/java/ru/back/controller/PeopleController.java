@@ -35,6 +35,7 @@ public class PeopleController {
     }
 
     @GetMapping("/new")
+    //@ModelAttribute работает как @PathVariable, но записывает сразу все атрибуты модели и записывает их
     public String newPerson(@ModelAttribute("person") Person person) {
         return null;
     }
