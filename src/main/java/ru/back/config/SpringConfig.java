@@ -17,7 +17,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 import javax.sql.DataSource;
 
 
-@Configuration //Даём Spring понять, что это класс конфигурации
+    @Configuration //Даём Spring понять, что это класс конфигурации
     @ComponentScan("ru.back") //Все необходимые компоненты в папке ru/back
     @EnableWebMvc //включение Spring MVC
     public class SpringConfig implements WebMvcConfigurer { //имплементируемся от класса конфигурации mvc
